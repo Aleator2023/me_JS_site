@@ -86,39 +86,32 @@
         </nav>
 
         <main>
-
-            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+            <section class="hero d-flex justify-content-center align-items-center text-center text-lg-start" id="section_1">
                 <div class="container">
-                    <div class="row">
-            
+                    <div class="row align-items-center">
                         <div class="col-lg-7 col-12">
                             <div class="hero-text">
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
                                     <h1 class="hero-title ms-3 mb-0">Привет, друзья!</h1>
                                 </div>
-            
                                 <h2 class="mb-4">Я, &nbsp; Fullstack-разработчик на JavaScript</h2>
                                 <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Обо мне</a></p>
                             </div>
                         </div>
-            
                         <div class="col-lg-5 col-12 position-relative d-flex justify-content-center">
                             <div class="hero-image-wrap" style="position: relative; display: flex; justify-content: center; align-items: center;">
-                                <div style="position: absolute; width: 300px; height: 300px; background-color: white; border-radius: 50%; z-index: -1; right: 10%; top: 20%;"></div>
-                                <img src="images/me_4.png" class="hero-image img-fluid" alt="" style="max-width: 60%; position: relative; z-index: 1; top: 100px;">
+                                <div class="hero-circle d-none d-lg-block" style="position: absolute; width: 300px; height: 300px; background-color: white; border-radius: 50%; z-index: -1; right: 10%; top: 20%;"></div>
+                                <img src="images/me_4.png" class="hero-image img-fluid" alt="" style="width: 100%; max-width: 300px; height: auto; position: relative; z-index: 1; top: 100px;">
                             </div>
                         </div>
                     </div>
                 </div>
             
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <svg class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#535da1" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path>
                 </svg>
             </section>
-            
-
-
-
+           
             <section class="about section-padding" id="section_2">
                 <div class="container">
                     <div class="row align-items-center">
@@ -347,10 +340,17 @@
                                     <strong class="site-footer-title d-block mt-4 mb-3">Оставайтесь на связи</strong>
 
                                     <ul class="social-icon">
-                                       
-                                        <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                      
+                                        <li class="social-icon-item">
+                                            <a href="https://www.instagram.com/alkr1985" class="social-icon-link bi-instagram" target="_blank"></a>
+                                        </li>
+                                        <li class="social-icon-item">
+                                            <a href="https://www.facebook.com/profile.php?id=100028062383322" class="social-icon-link bi-facebook" target="_blank"></a>
+                                        </li>
+                                        <li class="social-icon-item">
+                                            <a href="https://vk.com/id2439984" class="social-icon-link" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+                                                <img src="images/icons8-vk-100.png" alt="VK" style="width: 20px; height: 20px; position: relative; top: -0px;">
+                                            </a>
+                                        </li>
                                     </ul>
 
                                     <strong class="site-footer-title d-block mt-4 mb-3">Начать сотрудничать</strong>
